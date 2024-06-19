@@ -45,7 +45,7 @@ The analysis revealed that service quality and financial considerations are crit
 
 ## How to Use
 To replicate this project, follow these steps:
-1. Clone the repository to Google Drive: `git clone https://github.com/sdeery14/telecom-churn-analysis.git`
+1. Clone the repository to Google Drive: `git clone https://github.com/sdeery14/TelecomCustomerChurn.git`
 2. Open the files 'Deery_EDA.ipynb' and 'Deery_Modeling.ipynb' in Google Colab.
 3. Run the notebooks to see the analysis and modeling in action.
 

@@ -14,6 +14,16 @@
 ## Introduction
 Customer churn, where customers switch from one service provider to another, poses a significant challenge for telecommunications companies. This project leverages data science methodologies to analyze customer data, understand the underlying factors of churn, and develop predictive models to forecast potential churn. This enables telecom companies to implement targeted retention strategies and enhance customer loyalty.
 
+## Tools and Libraries Used
+The following tools and libraries were utilized in this project to perform data analysis, visualization, and modeling:
+
+- **Google Colab:** Used as the primary environment for running the Jupyter Notebooks.
+- **numpy:** Fundamental package for numerical computations in Python.
+- **pandas:** Essential library for data manipulation and analysis.
+- **matplotlib.pyplot:** Core plotting library for creating static, animated, and interactive visualizations.
+- **seaborn:** High-level interface for drawing attractive and informative statistical graphics.
+- **sklearn:** Comprehensive library for machine learning, including clustering, decomposition, ensemble methods, linear models, metrics, model selection, pipelines, preprocessing, and support vector machines.
+
 ## Data
 The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics/data). It contains 7043 rows and 38 columns, each representing a customer from a telecommunications company in California in Q2 2022. Key features include demographic information, service usage, and customer status (churn, stay, join).
 

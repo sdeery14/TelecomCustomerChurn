@@ -76,8 +76,15 @@ While both Random Forest and SVM demonstrated top performance, the choice of the
 ## How to Use
 To replicate this project, follow these steps:
 1. Clone the repository to Google Drive: `git clone https://github.com/sdeery14/telecom-customer-churn.git`
-2. Open the files 'Deery_EDA.ipynb' and 'Deery_Modeling.ipynb' in Google Colab.
-3. Run the notebooks to see the analysis and modeling in action.
+2. Open the files 'telecom-customer-churn-eda.ipynb' and 'telecom-customer-churn-modeling.ipynb' in Google Colab.
+3. Update the urls for the data files to the cloned repository if needed.
+```python
+# data
+customer_df = pd.read_csv('gdrive/My Drive/telecom-customer-churn/data/telecom_customer_churn.csv')
+pop_df = pd.read_csv('gdrive/My Drive/telecom-customer-churn/data/telecom_zipcode_population.csv')
+data_dict = pd.read_csv('gdrive/My Drive/telecom-customer-churn/data/telecom_data_dictionary.csv', encoding='latin1')
+```
+4. Run the notebooks to see the analysis and modeling in action.
 
 ## Results
 The best-performing models were Random Forest and SVM, both achieving an accuracy of 84.6%. The choice of model may depend on whether the goal is to maximize overall accuracy or to correctly identify customers likely to churn.
